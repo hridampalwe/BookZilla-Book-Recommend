@@ -1,7 +1,7 @@
 # BookZilla-Book-Recommend #
 ## Simple content-based recommendation engine made with MongoDB, Express JS and NodeJS ##
 
-This engine uses a [Consine Similarity](https://en.wikipedia.org/wiki/Cosine_similarity) and [Eucledean Distance](https://en.wikipedia.org/wiki/Euclidean_distance)to recommend a book to a selected book by the user 
+This engine uses a [Consine Similarity](https://en.wikipedia.org/wiki/Cosine_similarity) and [Eucledean Distance](https://en.wikipedia.org/wiki/Euclidean_distance) to recommend a book to a selected book by the user 
 
 Its a filtering system that uses above algorithms to filter through large datasets
 
@@ -12,8 +12,9 @@ In our case, because we are working with text and words, Term Frequency-Inverse 
 
 The mongodb path containing the dataset must contain title and genre for cosine similarity. 
 
-Dataset used in the example [Kaggle goodreads](https://www.kaggle.com/datasets/meetnaren/goodreads-best-books)
+Dataset used in the example [Kaggle goodreads](https://www.kaggle.com/datasets/meetnaren/goodreads-best-books) 
 
-##To run the server ##
-*After cloning, run npm install to download and install all the required dependencies.
-*Run node index.js to start the server at localhost:3000/
+
+## To run the server ##
+* After cloning, run npm install to download and install all the required dependencies.
+* Run node index.js to start the server at localhost:3000/
